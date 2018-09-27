@@ -1,0 +1,10 @@
+{
+    "status": 0,
+    "message": "success",
+    "list": [{
+        "id": 121211111,
+        "code": "chuntyang",
+        "updateTime": 1212200
+    }],
+    "total": 100
+}

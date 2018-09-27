@@ -1,0 +1,3 @@
+npm run dev          启动本地mock数据server
+npm run dev:real     启动线上代理server
+npm run build        启动代码本地编译打包server

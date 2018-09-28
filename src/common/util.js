@@ -6,10 +6,10 @@
  */
 export const contentType = 'Content-Type'
 
-export function formUrl(url, domain=location.host, urlConfig = urlConfig) {
-	// if (domain === 'localhost:8080') {
-	//     url='http://localhost:3000' + url;
-	//  }
+export function formUrl(url, absolutePath = false) {
+	if (absolutePath) {
+	    url='http://localhost:3000' + url;
+	 }
 	 return url;
 }
 // 获取cookie的值

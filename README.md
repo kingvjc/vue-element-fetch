@@ -1,6 +1,6 @@
-# model
+# project-template
 
-> model
+> project-template
 
 ## Build Setup
 

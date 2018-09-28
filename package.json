@@ -1,7 +1,7 @@
 {
-  "name": "model",
+  "name": "project-template",
   "version": "1.0.0",
-  "description": "template-model",
+  "description": "project-template",
   "author": "chuntyang",
   "private": true,
   "scripts": {

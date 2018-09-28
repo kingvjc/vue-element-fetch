@@ -13,7 +13,6 @@ export default {
     watch: {
         ['$route.matched']: function (val) {
             this.breadList = val;
-            console.log(this.breadList);
         }
     }
 

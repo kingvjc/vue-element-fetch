@@ -1,6 +1,6 @@
-# sj
+# model
 
-> sj
+> model
 
 ## Build Setup
 

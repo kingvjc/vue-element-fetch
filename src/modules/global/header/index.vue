@@ -1,6 +1,5 @@
 <script>
 import {mapGetters} from 'vuex';
-import {menu} from 'modules/common/menuConfig';
 export default{
     computed: {
         ...mapGetters({

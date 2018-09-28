@@ -1,7 +1,7 @@
 <script>
 /**
  * @file table组件
- * @author yangchunsheng01@baidu.com
+ * @author chuntyang
  * July 15, 2018
  * columns           列
  * data              表格数据

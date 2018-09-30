@@ -1,7 +1,7 @@
 <script>
 /**
  * @file         上传文件组件
- * @autor        chuntyang
+ * @autor        chutyang
  * Aug 02 2018
  * url           上传网址
  * uploadSuccess 上传成功的回调
@@ -60,8 +60,15 @@ export default {
     },
     methods: {
         submitUpload() {
+            if (this.fileList.length <= 0) {
+                this.$message.warning('请先选择文件');
+                return;
+            }
             this.fullscreenLoading = true;
             this.$refs.upload.submit();
+        },
+        handleRemove(file, fileList) {
+            this.fileList = fileList;
         },
         handleChange(file, fileList) {
             if (this.cover) {
@@ -106,6 +113,7 @@ export default {
       :file-list="fileList"
       :with-credentials="cookie"
       :on-change="handleChange"
+      :on-remove="handleRemove"
       :on-success="success"
       :on-error="error"
       :limit="limit"
@@ -116,6 +124,3 @@ export default {
     </el-upload>
 </div>
 </template>
-<style rel="stylesheet/less" lang="less" slot-scope>
-
-</style>

@@ -20,7 +20,7 @@ export default{
 <div id="header">
 <header class="header">
     <div class="brand">
-        <h2>KM平台</h2>
+        <h2>工程模版</h2>
     </div>
     <!-- todo 使用头部菜单 -->
     <!-- <ul class="header">
